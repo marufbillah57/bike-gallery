@@ -76,10 +76,42 @@
             <div id="reported">
                 <h1>Reported posts</h1>
             </div>
+            <section class="questions-area mt-5 mb-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h3>How does work JavsScript?</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            আমরা যে কোডটা লিখি সেটা যখন Browser পায় তখন সেটা মেশিন কোডে রূপান্তর করতে হয়। এই কাজটা browser এ থাকা JavaScricpt Engine নামে মেকানিজম টা করে। আমাদের লিখা কোডটা কে মেশিন Language এ convert করে। তারপর compouter code টা বুঝতে পারে, তখন আমরা সেটা Dispaly তে Output হিসেবে দেখতে পাই।
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>What does JavaScricpt Event loop do?</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Browser থাকা JavaScript Engine, আমরা যে code টা লিখি সেটা মেশিন কোডে রূপান্তর করে। ইঞ্জিনে মূলত দুটি জিনিস থাকে। যথাঃ HEAP & CALL STACK. Heap memory management জন্য ব্যবহার হয়। আর Stack হচ্ছে আমরা যখন JavaScript code এর মধ্যে কনো function call করি, তখন সেই function গুলি Stack আকারে Call Stack এর মধ্যে জমতে থাকে। 
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+
+            </section>
         </main>
         <footer></footer>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
+        <!-- Bootstrap JS link  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
